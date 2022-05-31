@@ -26,12 +26,6 @@ const userPassWordReducerFn = (state, action) => {
     // console.log("Blur is happend!");
     return { value: state.value, isValid: state.value.trim().length > 5 };
   }
-  if (
-    action.type === "CLEAR_USERNAME_INPUT" ||
-    action.type === "CLEAR_PASSWORD_INPUT"
-  ) {
-    return { value: "", isValid: null };
-  }
   return { value: "", isValid: null };
 };
 
@@ -98,9 +92,6 @@ const LogInForm = (props) => {
   const formDataHandler = (event) => {
     event.preventDefault();
     props.afterEnteredData(userNameState.value, userPassWordState.value);
-
-    userNameAction({ type: "CLEAR_USERNAME_INPUT" });
-    userPassWordAction({ type: "CLEAR_PASSWORD_INPUT" });
   };
 
   return (
