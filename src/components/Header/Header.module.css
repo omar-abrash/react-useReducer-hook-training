@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(225, 235, 34);
+  height: 100px;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    height: 130px;
+  }
+  .header h1 {
+    margin-bottom: 10px;
+  }
+}

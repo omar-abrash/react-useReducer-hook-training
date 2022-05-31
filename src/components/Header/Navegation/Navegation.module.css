@@ -1,0 +1,40 @@
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.nav ul li:not(:last-child) {
+  width: 80px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+}
+
+.nav ul li:not(:last-child):hover {
+  background-color: yellow;
+}
+
+.nav ul li a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgb(238, 170, 98);
+  width: 90px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: orangered;
+  font-size: 18px;
+}

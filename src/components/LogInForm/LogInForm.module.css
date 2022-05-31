@@ -1,0 +1,52 @@
+.container {
+  padding: 50px 0 50px 0;
+}
+.card {
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  padding-top: 20px;
+  background-color: rgba(218, 215, 206, 0.59);
+}
+
+.form div {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form label {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.form input {
+  width: 70%;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 15px;
+  border: 1px solid rgb(128, 163, 94);
+  box-shadow: 2px 2px 5px silver;
+  outline: none;
+}
+
+.form input:focus {
+  background-color: rgba(175, 255, 71, 0.44);
+  border: 1px solid rgba(137, 43, 226, 0.49);
+}
+
+input.not-valid {
+  background: rgba(255, 0, 0, 0.226);
+  border: 1px solid rgba(255, 0, 0, 0.852);
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(153, 227, 35, 0.786);
+}

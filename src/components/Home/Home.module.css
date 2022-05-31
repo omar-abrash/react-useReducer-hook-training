@@ -1,0 +1,8 @@
+.card {
+  height: 500px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted black;
+}
